@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+/*
+    Roboto, Poppins
+*/
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.inicio{
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 35%;
+
+    height: 100vh;
+    
+    background-color: rgba(0, 0, 0, 0.37);
+}#coffee-cup {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.cabecalho{
+    margin-top: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40rem;
+
+} .coffee{
+    color: white;
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+
+    align-items: center;
+
+    gap: 2rem;
+} .nav-option{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+    border: solid 1px rgba(255, 166, 0, 0);
+    border-radius: 5%;
+    padding: 4px;
+
+    transition: .5s;
+} .nav-option:hover{
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+
+    border: solid 1px orange;
+    border-radius: 5%;
+    padding: 5px;
+
+    transition: 1s;
+}
+
+.there-is {
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 6rem;
+} b {
+    color: orange;
+    font-weight: 700;
+    font-size: 7rem;
+}
+
+.principal{
+    display: flex;
+
+    align-items: center;
+
+    background: orange;
+    padding-top: 100px;
+} .we-just{
+    display: flex;
+
+    align-items: center;
+    padding: 1rem;
+
+    background: orange;
+}.why{
+    display: flex;
+
+    flex-direction: column;
+    padding: 1rem;
+} .taste{
+    color: white;
+    font-size: 5rem;
+} .taste::after{
+    content: '';
+
+    display: block;
+
+    background-color: white;
+    height: 5px;
+    width: 120%;
+
+    z-index: 2;
+} .lorem{
+    font-size: 1.5rem;
+
+    text-align: justify;
+} #fire{
+    box-shadow: 2px 2px 2px black;
+}
