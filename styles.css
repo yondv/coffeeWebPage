@@ -12,6 +12,11 @@
     text-decoration: none;
 }
 
+*::selection {
+    background-color: black;
+    color: white;
+  }
+
 ::-webkit-scrollbar{
     width: 5px;
     background-color: rgba(0, 0, 0, 0.925);
@@ -37,7 +42,7 @@ body{
     height: 100vh;
     
     background-color: rgba(0, 0, 0, 0.37);
-}#coffee-cup {
+} #coffee-cup {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -108,35 +113,72 @@ nav{
 
     background: orange;
     padding-top: 100px;
-} .we-just{
+} .ctn-orange{
     display: flex;
-
+    flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    gap: 5rem;
+    padding: 13rem 12rem;
 
     background: orange;
-}.why{
+}.ctn-column{
     display: flex;
-
-    flex-direction: column;
-    padding: 1rem;
+    justify-content: center;
+    align-items: center;
 } .taste{
-    color: white;
-    font-size: 5rem;
-} .taste::after{
-    content: '';
-
-    display: block;
-
-    background-color: white;
-    height: 5px;
-    width: 120%;
-
-    z-index: 2;
+    color: #32373B;
+    font-size: 8rem;
 } .lorem{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: #32373B;
 
+    position: absolute;
+
+    width: 50rem;
     text-align: justify;
-} #fire{
+} #video2{
     box-shadow: 2px 2px 2px black;
+    margin-left: 1rem;
+} #order{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #F9FBF2;
+
+    padding: 1.5rem;
+    background-color: #32373b00;
+    /* border: 2px solid #FE5F55; */
+    border: 2px solid white;
+    border-radius: 10px;
+
+    transition: .5s;
+} #order:hover{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #FE5F55;
+
+    padding: 1.6rem;
+    background-color: #32373ba9;
+    border: 2px solid #FE5F55;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: 1s;
+} 
+
+.ctn-alpha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5rem 0rem;
+
+    /* background-color: rgba(0, 0, 0, 0.651);  */
+    /* background-color: rgb(235, 226, 226);  */
+    background-color: #F9FBF2;
+} .have{
+    color: #32373B;
+
+    font-size: 7rem;
 }
