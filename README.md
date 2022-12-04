@@ -1,3 +1,4 @@
+<h1>Hello there! ✌</h1>
 Just a training project to test my HTML, CSS and JavaScript skills!
 
-By: Vítor Hugo Tavares Pereira
+- Vítor Hugo Tavares Pereira
